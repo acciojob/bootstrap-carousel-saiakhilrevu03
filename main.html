@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Write your code here -->
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap Carousel -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item first-slide">
+      <img src="https://images.pexels.com/photos/669988/pexels-photo-669988.jpeg" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item second-slide">
+      <img src="https://images.pexels.com/photos/6185656/pexels-photo-6185656.jpeg" class="d-block w-100" alt="Slide 2">
+    </div>
+    <div class="carousel-item third-slide active">
+      <img src="https://images.pexels.com/photos/6185653/pexels-photo-6185653.jpeg" class="d-block w-100" alt="Slide 3">
+    </div>
+    <div class="carousel-item fourth-slide">
+      <img src="https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg" class="d-block w-100" alt="Slide 4">
+    </div>
+    <div class="carousel-item fifth-slide">
+      <img src="https://images.pexels.com/photos/358574/pexels-photo-358574.jpeg" class="d-block w-100" alt="Slide 5">
+    </div>
+  </div>
+
+  <!-- Carousel Controls -->
+  <button class="carousel-control-prev carousel-control left" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next carousel-control right" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
- 
 </html>
+
